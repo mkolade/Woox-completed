@@ -733,4 +733,29 @@ width: 10%;
   font-weight: 700;
 }
 
+#check_in{
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  background: white;
+}
+
+#check_in h1{
+  line-height: 36px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+#check_in p{
+  font-size: 17px;
+  line-height: 30px;
+  color: #afafaf;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
