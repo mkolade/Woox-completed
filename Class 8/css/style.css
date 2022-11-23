@@ -738,6 +738,8 @@ width: 100%;
 height: auto;
 padding-top: 50px;
 background: white;
+padding-bottom: 100px;
+border-bottom: 1px solid #eee;
 }
 
 #check_in h1{
@@ -801,21 +803,26 @@ text-align: right;
 
 #overhead #name{
 display: flex;
+
 }
 
 #overhead #name h1{
 padding-left: 25px;
 padding-top: 20px;
-font-size: 25px;
+font-size: 20px;
 font-weight: 700;
 }
 
+
+
 #overhead #name h2{
 padding-top: 25px;
-padding-left: 65px;
+
 font-size: 25px;
 color: #22b3c1;
 }
+
+
 
 #overhead #names{
 display: flex;
@@ -908,4 +915,30 @@ text-decoration: none;
 #overhead button:hover{
 transition: 0.3s ease-in-out;
 background: #33a0aa;
+}
+
+#discover_more{
+  width: 100%;
+  height: auto;
+  background: white;
+}
+
+#discover{
+  width: 85%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+#discover1{
+  width: 50%;
+  height: auto;
+}
+
+#discover2{
+  width: 50%;
+  height: auto;
 }
