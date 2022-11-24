@@ -1028,3 +1028,32 @@ background: #33a0aa;
   color: #22b3c1;
   padding-left: 30px;
 }
+
+#down{
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
+
+#down button{
+  background: #22b3c1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+  border-radius: 30px;
+  
+}
+
+#down button a{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+#down button:hover{
+  background: #4babb4;
+}
