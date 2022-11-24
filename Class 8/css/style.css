@@ -9,7 +9,6 @@
 #container{
   width: 100%;
   height: auto;
-
   text-align: center;
 }
 
@@ -20,9 +19,14 @@
   background: #22b3c1;
   display: flex;
   justify-content: space-between;
-  
+  position: fixed;
+  top: 0px;
+  z-index: 300;
 }
 
+#content{
+  margin-top: 70px;
+}
 #logo{
   width: 30%;
 }
@@ -1058,3 +1062,43 @@ background: #33a0aa;
   background: #4babb4;
   transition: 0.3s ease-in-out;
 }
+a{
+  text-decoration: none;
+}
+.backtotop{
+  background: #ccc;
+  position: fixed;
+  bottom: 20px;
+  right: 32px;
+  width: 60px;
+  height: 60px;
+ 
+  z-index: 1000;
+  color: black;
+  border: 1px solid black;
+  border-radius: 100%;
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;   
+}
+
+.backtotop :hover{
+  color: #fff;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;   
+}
+
+.active{
+  opacity: 1;
+  pointer-events: all;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;   
+}
+
