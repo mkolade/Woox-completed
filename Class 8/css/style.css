@@ -967,3 +967,64 @@ background: #33a0aa;
     color: #afafaf;
     margin-bottom: 30px;
 }
+
+#guests{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#guest{
+  width: 48%;
+  height: 100%;
+  background: #f7f7f7;
+  text-align: left;
+  border-radius: 15px;
+}
+
+#guest h4{
+  font-size: 23px;
+  padding-left: 30px;
+  padding-bottom: 7px;
+  padding-top: 12%;
+}
+
+#guest h5{
+  font-size: 17px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: #22b3c1;
+  padding-left: 30px;
+}
+
+#guests2{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  background: #f7f7f7;
+  text-align: left;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+#guest2{
+  width: 48%;
+  height: 100%;
+}
+
+#guest2 h4{
+  font-size: 23px;
+  padding-left: 30px;
+  padding-bottom: 7px;
+  padding-top: 12%;
+}
+
+#guest2 h5{
+  font-size: 17px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: #22b3c1;
+  padding-left: 30px;
+}
