@@ -1044,7 +1044,7 @@ background: #33a0aa;
   padding-right: 40px;
   border: none;
   border-radius: 30px;
-  
+  transition: 0.3s ease-in-out;
 }
 
 #down button a{
@@ -1056,4 +1056,5 @@ background: #33a0aa;
 
 #down button:hover{
   background: #4babb4;
+  transition: 0.3s ease-in-out;
 }
