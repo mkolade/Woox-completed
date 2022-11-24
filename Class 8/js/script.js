@@ -65,7 +65,7 @@ const swiper = new Swiper('.swiper', {
    window.addEventListener('scroll',() =>
    {
   
-    if(window.pageYOffset > 300)
+    if(window.pageYOffset > 500)
     {
         visible();
     }
