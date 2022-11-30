@@ -25,7 +25,7 @@
 }
 
 #content{
-  margin-top: 70px;
+  margin-top: 52px;
 }
 #logo{
   width: 30%;
@@ -1066,7 +1066,7 @@ a{
   text-decoration: none;
 }
 .backtotop{
-  background: #ccc;
+  background: black;
   position: fixed;
   bottom: 20px;
   right: 32px;
@@ -1074,8 +1074,8 @@ a{
   height: 60px;
  
   z-index: 1000;
-  color: black;
-  border: 1px solid black;
+  color: white;
+  border: 1px solid white;
   border-radius: 100%;
   display: flex;
   font-size: 30px;
@@ -1089,7 +1089,7 @@ a{
 }
 
 .backtotop :hover{
-  color: #fff;
+  color: gray;
   transition-timing-function: ease-in-out;
   transition-duration: 0.3s;   
 }
