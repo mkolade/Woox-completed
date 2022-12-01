@@ -1163,7 +1163,7 @@ a{
 }
 
 #sort_deals{
-  height: 150px;
+  height: 120px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -1174,15 +1174,56 @@ a{
 }
 
 #ik{
-  width: 80%;
+  width: 90%;
   height: auto;
-  background: #2a2a2a;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: space-between;
 }
 
+#ik h1{
+  font-size: 25px;
+  margin-top: 50px;
+  color: white;
+}
+#destinations {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-bottom: 1px solid #fff;
+  border-radius: 0px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  width: 32%;
+  cursor: pointer;
+  padding: 0%;
+  word-wrap: normal;
+  text-transform: none;
+  line-height: 0;
+}
+
+#destinations option{
+  background: #22b3c1;
+}
+
+#ik button{
+  background: transparent;
+  border: 1px solid white;
+  margin-top: 20px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#ik button a{
+  color: white;
+  font-size: 17px;
+}
 
 
 
