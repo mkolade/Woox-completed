@@ -1574,8 +1574,173 @@ a{
     margin-right: auto;
     background: #f9f9f9;
     border-radius: 25px;
+    margin-bottom: 150px;
   }
   #map_only{
     width: 100%;
     height: auto;
+  }
+
+  #map_only iframe{
+    width: 100%;
+    height: 70vh;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+  #form_map h1{
+    font-size: 35px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+  #form_map span{
+    color: #22b3c1;
+  }
+
+  #inputs{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+  }
+
+  #inputs label{
+    font-size: 20px;
+    color: #afafaf;
+  }
+
+  #input{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #input1{
+    width: 48%;
+    text-align: left;
+  }
+
+  
+
+  #input1 input{
+    width: 100%;
+    font-size: 20px;
+    height: 55px;
+    background-color: transparent;
+    border-radius: 23px;
+    border: 1px solid #e0e0e0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+  }
+
+  #input2{
+    width: 48%;
+    text-align: left;
+  }
+
+  #input2 label{
+    font-size: 20px;
+    color: #afafaf;
+  }
+
+  #input2 input{
+    width: 100%;
+    font-size: 20px;
+    height: 55px;
+    background-color: transparent;
+    border-radius: 23px;
+    border: 1px solid #e0e0e0;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+
+
+  
+  #guest1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+
+  #guest{
+    width: 48%;
+    text-align: left;
+  }
+
+  #guest input{
+    width: 100%;
+    font-size: 20px;
+    height: 55px;
+    background-color: transparent;
+    border-radius: 23px;
+    border: 1px solid #e0e0e0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    color: #afafaf;
+  }
+
+  #guest select{
+    width: 105%;
+    font-size: 20px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 23px;
+    border: 1px solid #e0e0e0;
+    padding-left: 20px;
+    margin-top: 10px;
+    color: black;
+  }
+
+  #guest select option{
+    background: #22b3c1;
+    border-radius: 23px;
+  }
+
+  #choose{
+    width: 100%;
+    text-align: left;
+    padding-top: 50px;
+  }
+
+  #choose select{
+    width: 104%;
+    font-size: 20px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 23px;
+    border: 1px solid #e0e0e0;
+    padding:0px 20px;
+    margin-top: 10px;
+    color: black;
+  }
+
+  #choose select option{
+    background: #22b3c1;
+    border-radius: 23px;
+  }
+
+  #inputs button{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #22b3c1;
+    color: white;
+    width: 100%;
+    border: none;
+    font-size: 19px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 40px;
+    transition: 0.2s ease-in-out;
+  }
+
+  #inputs button:hover{
+    background: #4fc7d2;
+    transition: 0.2s ease-in-out;
   }
